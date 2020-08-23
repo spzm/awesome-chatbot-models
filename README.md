@@ -3,14 +3,26 @@ List of existing models that can be picked up for chatbot training
 
 ## Dialog models
 
+1. QBox Chatbot Model for general purpose intents about epidemic situation with the company and intents about company state (is it open, is deliver working).
+    * Use this model to quickly rollout intents to inform users about current situation regarding epidemic. 
+    * Use it to extend your current bot by just adding needed intents.
+
+    **Links** [post](https://medium.com/qbox-nlp-performance-tooling/new-model-for-rapid-deployment-of-covid-19-trained-chatbots-8806fb94a8ff), [model](https://github.com/benoitalvarez/Covid-19-QBox-ChatbotModel)
+
+    **NLU exports**: Dialogflow, Watson, LUIS, Rasa
+
+    **Languages** English
+
 
 ## Knowledge Bases (Question-Answer)
 
-1. Chit-chat model dataset for QnA Maker. Pre-populated set of the top chit-chat intents. That allows to make a bot more conversational and engaging from the beginning. Model can be easily converted to any other SaaS NLU format.
+1. Chit-chat QnA Maker dataset. Pre-populated set of the top chit-chat intents. 
+    * Use this model to make a bot more conversational and engaging from the beginning. The model can be converted to other SaaS NLU format.
 
-    The model has 5 types of bot answers based on different personality. That's why this model is also good to evaluate what personality alternatives could be used. 
+    * The model has 5 types of bot answers based on a different personality. Use this model to evaluate what alternative personalities exist. 
 
     **Links**: [docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base), [model](https://github.com/Microsoft/BotBuilder-PersonalityChat/tree/master/CSharp/Datasets). 
+
+    **NLU exports**: Q&A Maker 
  
     **Languages**: Chinese, English, French, German, Italian, Japanese, Korean, Portuguese, Spanish.
-
