@@ -26,3 +26,14 @@ List of existing models that can be picked up for chatbot training
     **NLU exports**: Q&A Maker 
  
     **Languages**: Chinese, English, French, German, Italian, Japanese, Korean, Portuguese, Spanish.
+
+1. Dialogflow small talk model has most of the required intents to start to build a bot from scratch. It contains not only small talk intents but a wider list of confirmation/declining/... phrases that can be reused for some multi-turn dialogs.
+    * Use it when creating greenfield bot to enable wider topics from the beginning.
+    * Add some intents to an existing bot to extend the number of topics bot can answer.
+    * Use it to add a small talk to existing bot.
+
+    **Links**: [docs](https://cloud.google.com/dialogflow/docs/agents-small-talk), [manual model export](https://github.com/spzm/dialogflow-smalltack-export)
+
+    **NLU exports**: Dialogflow
+
+    **Languages**: English
